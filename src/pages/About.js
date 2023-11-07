@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import aboutImg from '../assets/about.jpg';
 
+
 function AutoLayoutExample() {
   return (
     <Container>

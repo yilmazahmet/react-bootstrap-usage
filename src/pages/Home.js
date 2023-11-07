@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import sliderImage1 from '../assets/carousel.jpg'
+import sliderImage1 from '../assets/carousel.jpg';
 
 function DarkVariantExample() {
   return (
@@ -14,14 +14,14 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=eee"
+          src={sliderImage1}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=e5e5e5"
+          src={sliderImage1}
           alt="Third slide"
         />
       </Carousel.Item>
