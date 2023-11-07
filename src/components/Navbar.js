@@ -11,7 +11,7 @@ function NavBar() {
             <Navbar sticky='top' bg="dark" data-bs-theme="dark">
                 <Container className='d-flex'>
                     <Row>
-                        <Col>
+                        <Col xl lg xs ={4}>
                             <Navbar.Brand href="/home"><img alt=""
                                 src={Logo}
                                 width="auto"
@@ -19,10 +19,11 @@ function NavBar() {
                                 className="d-inline-block align-top"></img>
                             </Navbar.Brand>
                         </Col>
-                        <Col>
+                        <Col align xl lg xs ={8}>
                             <Nav className="me-auto">
                                 <Nav.Link href="/home">Anasayfa</Nav.Link>
                                 <Nav.Link href="/about">Hakkımızda</Nav.Link>
+                                <Nav.Link href="/gallery">Galeri</Nav.Link>
                                 <Nav.Link href="/contact">İletişim</Nav.Link>
                             </Nav>
                         </Col>
