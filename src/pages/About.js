@@ -2,12 +2,16 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import aboutImg from '../assets/about.jpg';
+import aboutBanner from '../assets/about-banner.jpg';
+import aboutImg from '../assets/about.jpg'
 
 
 function About() {
   return (
-    <Container>
+    <Container className='AboutPage'>
+      <div>
+        <img alt='about-banner' className='PageBanner' src={aboutBanner} fluid></img>
+      </div>
       <Row>
         <Col md = {4}><img src={aboutImg} alt='hakkimizda-gorsel' width="100%" fluid></img></Col>
         <Col md = {8}><h1>Hakkımızda</h1>

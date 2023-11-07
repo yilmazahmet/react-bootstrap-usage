@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .navbar {
   position: relative;
   margin: 0;
@@ -11,18 +6,70 @@
   height: 100px;
 }
 
-.App{
+.Container {
+  padding: 0 !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+/* App.js Başlangıç */
+.App {
   padding: 0;
   margin: 0;
   min-height: calc(100vh - 6 px);
 }
 
-.banners {
-  top: -100px;
+/* App.js Bitiş */
+
+/* About.js Başlangıç */
+.AboutPage {
   padding: 0;
   margin: 0;
+  min-height: calc(150vh - 6px);
+}
+/* About.js Bitiş */
+
+
+/* Gallery.js Başlangıç */
+.Gallery {
+  padding: 0;
+  margin: 0;
+  min-height: calc(150vh - 6px);
+}
+/* Gallery.js Bitiş */
+
+
+/* Contact.js Başlangıç */
+.ContactPage {
+  padding: 0;
+  margin: 0;
+  min-height: calc(100vh - 6px);
+}
+
+.contactForm {
+  padding: 30px;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+
+.map {
   width: 100%;
-  position: absolute;
+  height: 250px;
+  margin-top: 40px;
+  bottom: 0px;
+}
+
+/* Contact.js Bitiş */ 
+
+.PageBanner {
+  top: -20px;
+  height:200px;
+  padding: 0;
+  margin-bottom: 50px;
+  width: 100%;
+  position: relative ;
+  object-fit: cover;
 }
 
 .carousel {
